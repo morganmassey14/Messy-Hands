@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { MessyHands } from './components/MessyHands';
+import { BrowserRouter as Router } from "react-router-dom"
 import reportWebVitals from './reportWebVitals';
+import "./styles/Custom.scss"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+    <MessyHands />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
