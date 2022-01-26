@@ -1,48 +1,47 @@
 {
-    "users": [
+  "users": [
     {
-        "id": 1,
-        "name": "Archer",
-        "email": "archermingo@me.com"
-    }
-],
-
-"gallary": [
+      "id": 1,
+      "name": "Archer",
+      "email": "archermingo@me.com"
+    },
     {
-        "id": 1,
-        "userId": 1,
-        "title": "Archer's Fairies",
-        "image": "archersfairies.png"
+      "email": "timgann@me.com",
+      "name": "Tim",
+      "id": 2
     }
-],
-
-"projects": [
+  ],
+  "gallary": [
     {
-        "id": 1,
-        "title": "Stick Fairies",
-        "image": "stickfairies.jpg"
-
+      "id": 1,
+      "userId": 1,
+      "title": "Archer's Fairy"
     }
-],
-
-"steps": [
+  ],
+  "projects": [
     {
-        "id": 1,
-        "title": "Fairy Assembly",
-        "description": "Glue four leaves on to the back of the stick to act as wings, and the draw on a face",
-        "image": "stickfairiesone.png",
-        "stepOrder": 3,
-        "projectId": 1
+      "id": 1,
+      "title": "Stick Fairies",
+      "image": "stickfairies.jpg"
     }
-],
-
-"items": [
+  ],
+  "steps": [
     {
-        "id": 1,
-        "title": "sticks",
-        "image": "stick.png",
-        "stepId": 1,
-        "isNature": true
+      "id": 1,
+      "title": "Fairy Assembly",
+      "description": "Glue four leaves on to the back of the stick to act as wings, and the draw on a face",
+      "image": "stickfairiesone.png",
+      "stepOrder": 3,
+      "projectId": 1
     }
-]
+  ],
+  "items": [
+    {
+      "id": 1,
+      "title": "sticks",
+      "image": "stick.png",
+      "stepId": 1,
+      "isNature": true
+    }
+  ]
 }
