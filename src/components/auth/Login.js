@@ -47,24 +47,28 @@ return (
         <img className="lr__logo" src={logo} alt="" />
             <form id="form" className="topBefore" onSubmit={handleLogin}>
                 <fieldset>
-                    <label htmlFor="input__email"></label>
+                    <label htmlFor="input__email">Email</label>
                     <input type="email"
                     id="email"
                     className="email"
-                    placeholder="email address"
                     required autoFocus
                     value={loginUser.email}
                     onChange={handleInputChange} />
                 </fieldset>
                 <button className="login__button" type="submit">
-                    Sign In
+                    LOG-IN
                 </button>
-                <button className="register__button" type="register">
-                <Link to="/register" style={{ color: '#55628F' }}>Register</Link>
-                </button>
+                <div className="register">
+                    <p> No account?</p>
+                <Link to="/register">Sign up</Link>
+                </div>
             </form>
         </section>
     </main>
 )
 
 }
+
+{/* <Router>
+ <Link to='https://google.com/'><button>GO GOOGLE</button></Link>
+</Router> */}

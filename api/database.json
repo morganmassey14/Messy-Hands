@@ -24,37 +24,31 @@
       "title": "Stick Fairies",
       "image": "stickfairies.jpg"
     },
-
     {
       "id": 2,
       "title": "Mud Collage",
       "image": "stickfairies.jpg"
     },
-
     {
       "id": 3,
       "title": "Stone Friends",
       "image": "stickfairies.jpg"
     },
-
     {
       "id": 4,
       "title": "Nature Prints",
       "image": "stickfairies.jpg"
     },
-
     {
       "id": 5,
       "title": "Nature Suncatcher",
       "image": "stickfairies.jpg"
     },
-
     {
       "id": 6,
       "title": "Nature Crown",
       "image": "stickfairies.jpg"
     }
-
   ],
   "steps": [
     {
@@ -67,7 +61,6 @@
       "stepOrder": 3,
       "projectId": 1
     },
-
     {
       "id": 2,
       "title": "Step Four",
@@ -78,7 +71,6 @@
       "stepOrder": 4,
       "projectId": 1
     },
-
     {
       "id": 3,
       "title": "Step Three",
@@ -89,7 +81,6 @@
       "stepOrder": 3,
       "projectId": 2
     },
-
     {
       "id": 4,
       "title": "Step Four",
@@ -99,8 +90,7 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 4,
       "projectId": 2
-    },   
-    
+    },
     {
       "id": 5,
       "title": "Step Three",
@@ -110,8 +100,7 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 3,
       "projectId": 3
-    }, 
-
+    },
     {
       "id": 6,
       "title": "Step Four",
@@ -121,8 +110,7 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 4,
       "projectId": 3
-    }, 
-
+    },
     {
       "id": 7,
       "title": "Step Three",
@@ -132,8 +120,7 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 3,
       "projectId": 4
-    }, 
-
+    },
     {
       "id": 8,
       "title": "Step Four",
@@ -143,8 +130,7 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 4,
       "projectId": 4
-    }, 
-
+    },
     {
       "id": 9,
       "title": "Step Three",
@@ -154,8 +140,7 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 3,
       "projectId": 5
-    }, 
-
+    },
     {
       "id": 10,
       "title": "Step Four",
@@ -165,8 +150,7 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 4,
       "projectId": 5
-    }, 
-
+    },
     {
       "id": 11,
       "title": "Step Three",
@@ -176,8 +160,7 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 3,
       "projectId": 6
-    }, 
-
+    },
     {
       "id": 12,
       "title": "Step Four",
@@ -188,7 +171,6 @@
       "stepOrder": 4,
       "projectId": 6
     },
-
     {
       "id": 13,
       "title": "Step One",
@@ -197,7 +179,6 @@
       "stepOrder": 1,
       "projectId": 1
     },
-
     {
       "id": 14,
       "title": "Step One",
@@ -206,7 +187,6 @@
       "stepOrder": 1,
       "projectId": 2
     },
-
     {
       "id": 15,
       "title": "Step One",
@@ -215,7 +195,6 @@
       "stepOrder": 1,
       "projectId": 3
     },
-
     {
       "id": 16,
       "title": "Step One",
@@ -224,7 +203,6 @@
       "stepOrder": 1,
       "projectId": 4
     },
-
     {
       "id": 16,
       "title": "Step One",
@@ -233,7 +211,6 @@
       "stepOrder": 1,
       "projectId": 5
     },
-
     {
       "id": 17,
       "title": "Step One",
@@ -242,7 +219,6 @@
       "stepOrder": 1,
       "projectId": 6
     }
-
   ],
   "items": [
     {
@@ -252,7 +228,6 @@
       "stepId": 17,
       "isNature": true
     },
-
     {
       "id": 1,
       "title": "sticks",
@@ -260,6 +235,5 @@
       "stepId": 1,
       "isNature": true
     }
-
   ]
 }
