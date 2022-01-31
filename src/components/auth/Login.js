@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import { useHistory } from "react-router-dom"
 import { Link } from "react-router-dom"
+import lrbanner from "../../images/lrbanner.png"
+import logo from "../../images/logo.png"
 
 export const Login = ({setAuthUser}) => {
     const [loginUser, setLoginUser] = useState({ email: "" })
@@ -41,6 +43,8 @@ return (
             <button className="button__close" onClick={e => setExistDialog(false)}>Close</button>
         </dialog>
         <section className="main">
+        <img className="lr__banner" src={lrbanner} alt="" />
+        <img className="lr__logo" src={logo} alt="" />
             <form id="form" className="topBefore" onSubmit={handleLogin}>
                 <fieldset>
                     <label htmlFor="input__email"></label>

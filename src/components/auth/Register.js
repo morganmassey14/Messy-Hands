@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import { useHistory } from "react-router-dom";
+import lrbanner from "../../images/lrbanner.png"
+import logo from "../../images/logo.png"
 
 export const Register = ({ setAuthUser }) => {
 
@@ -64,6 +66,8 @@ return (
             <button className="button--close" onClick={e => setConflictDialog(false)}>Close</button>
         </dialog>
         <section className="register">
+        <img className="lr__banner" src={lrbanner} alt="" />
+        <img className="lr__logo" src={logo} alt="" />
             <form id= "form" className="form" className="topBefore" onSubmit={handleRegister}>
                 <fieldset>
                     <label htmlFor="firstName"></label>
