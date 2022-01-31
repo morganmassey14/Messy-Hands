@@ -1,5 +1,8 @@
 import React, { useState } from "react"
 import { useHistory } from "react-router-dom";
+import lrbanner from "../../images/lrbanner.png"
+import logo from "../../images/logo.png"
+import { Link } from "react-router-dom"
 
 export const Register = ({ setAuthUser }) => {
 
@@ -64,32 +67,35 @@ return (
             <button className="button--close" onClick={e => setConflictDialog(false)}>Close</button>
         </dialog>
         <section className="register">
+        <img className="lr__banner" src={lrbanner} alt="" />
+        <img className="lr__logo" src={logo} alt="" />
             <form id= "form" className="form" className="topBefore" onSubmit={handleRegister}>
                 <fieldset>
-                    <label htmlFor="firstName"></label>
+                    <label htmlFor="firstName">Name</label>
                     <input type="text" 
                     name="firstName" 
                     id="firstName" 
                     className="firstName" 
-                    placeholder="First name" 
                     required autoFocus value={registerUser.firstName} 
                     onChange={handleInputChange} />
                 </fieldset>
                 <fieldset>
-                    <label htmlFor="inputEmail"></label>
+                    <label htmlFor="inputEmail">Email</label>
                     <input type="email" 
                     name="email" 
-                    id="email" className="email" 
-                    placeholder="Email address" 
+                    id="email" className="email"  
                     required value={registerUser.email} 
                     onChange={handleInputChange} />
                 </fieldset>
                 <div className="registerButtons">
                 <fieldset>
                     <div className="registerbutton">
-                    <button className="buttonSubmitRegister" type="submit"> Sign in </button>
+                    <button className="buttonSubmitRegister" type="submit">CREATE ACCOUNT</button>
                     </div>
-                    <button className="buttonCancelRegister" onClick={handleCancel}> Cancel </button>
+                    <div className="signIn">
+                        <p>Have an account?</p>
+                        <Link to="/login">Log in</Link>
+                    </div>
                     
                 </fieldset>
                 </div>

@@ -6,18 +6,22 @@ import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
 import { GallaryList } from "./gallary/GallaryList"
 import { GallaryEditForm } from "./gallary/GallaryEdit"
+import { NavBar } from "./nav/NavBar"
 
-
-export const ApplicationViews = ({setAuthUser, isAuthenticated}) => {
+export const ApplicationViews = ({setAuthUser, isAuthenticated, clearUser}) => {
 
     return (
         <>
-        <Route exact path="/">
-         {isAuthenticated ? <ProjectList /> : <Redirect to="/login" />}
+        <Route path="/">
+            {isAuthenticated ? <NavBar clearUser={clearUser} isAuthenticated={isAuthenticated} /> : null}
         </Route>
 
         <Route exact path="/login">
             <Login setAuthUser={setAuthUser} />
+        </Route>
+
+        <Route exact path="/">
+         {isAuthenticated ? <ProjectList /> : <Redirect to="/login" />}
         </Route>
 
         <Route path="/register">

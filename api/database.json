@@ -23,19 +23,211 @@
       "id": 1,
       "title": "Stick Fairies",
       "image": "stickfairies.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Mud Collage",
+      "image": "stickfairies.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Stone Friends",
+      "image": "stickfairies.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Nature Prints",
+      "image": "stickfairies.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Nature Suncatcher",
+      "image": "stickfairies.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Nature Crown",
+      "image": "stickfairies.jpg"
     }
   ],
   "steps": [
     {
       "id": 1,
-      "title": "Fairy Assembly",
-      "description": "Glue four leaves on to the back of the stick to act as wings, and the draw on a face",
-      "image": "stickfairiesone.png",
+      "title": "Step Three",
+      "description1": "Use a marker to draw on a face",
+      "description2": "Use some glue to stick the leaves on the back of your stick for fairy wings",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
       "stepOrder": 3,
       "projectId": 1
+    },
+    {
+      "id": 2,
+      "title": "Step Four",
+      "description1": "Add more leaves to make some clothes",
+      "description2": "Use your extras to give your fairy a little hat",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 4,
+      "projectId": 1
+    },
+    {
+      "id": 3,
+      "title": "Step Three",
+      "description1": "Use your fingers to cover your cardboard in mud",
+      "description2": "Press your leaves into the mud",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 3,
+      "projectId": 2
+    },
+    {
+      "id": 4,
+      "title": "Step Four",
+      "description1": "Press your flowers into the mud",
+      "description2": "Press any of your extras in to finish",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 4,
+      "projectId": 2
+    },
+    {
+      "id": 5,
+      "title": "Step Three",
+      "description1": "Wash your rock off so it's nice and clean",
+      "description2": "Use your paintbrush to cover the entire rock",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 3,
+      "projectId": 3
+    },
+    {
+      "id": 6,
+      "title": "Step Four",
+      "description1": "Paint two eyes onto your rock",
+      "description2": "Add a nose and a smile!",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 4,
+      "projectId": 3
+    },
+    {
+      "id": 7,
+      "title": "Step Three",
+      "description1": "Apply paint to your leaves with your fingers or a paintbrush",
+      "description2": "Flip leaf over, paintside down and press into the paper",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 3,
+      "projectId": 4
+    },
+    {
+      "id": 8,
+      "title": "Step Four",
+      "description1": "Apply paint to your flowers, or extras",
+      "description2": "Press paint side down onto your paper",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 4,
+      "projectId": 4
+    },
+    {
+      "id": 9,
+      "title": "Step Three",
+      "description1": "Have a grownup cut two squares of contact paper, and peel the back off",
+      "description2": "Arrange all of your nature peices on the sticky side",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 3,
+      "projectId": 5
+    },
+    {
+      "id": 10,
+      "title": "Step Four",
+      "description1": "Place the other piece of contact paper on top so the sticky sides touch",
+      "description2": "Glue your popcicle sticks around the edges to make a frame. Add some string at the top",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 4,
+      "projectId": 5
+    },
+    {
+      "id": 11,
+      "title": "Step Three",
+      "description1": "Have a grown up measure your head and cut your paper bag to fit",
+      "description2": "Use your markers and/or paint to decorate the paper bag",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 3,
+      "projectId": 6
+    },
+    {
+      "id": 12,
+      "title": "Step Four",
+      "description1": "Use your glue to attach your nature pieces onto the paper bag",
+      "description2": "Once dry, glue the backs together to form your crown!",
+      "image1": "stickfairiesone.png",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 4,
+      "projectId": 6
+    },
+    {
+      "id": 13,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt!",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 1,
+      "projectId": 1
+    },
+    {
+      "id": 14,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt!",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 1,
+      "projectId": 2
+    },
+    {
+      "id": 15,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt!",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 1,
+      "projectId": 3
+    },
+    {
+      "id": 16,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt!",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 1,
+      "projectId": 4
+    },
+    {
+      "id": 16,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt!",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 1,
+      "projectId": 5
+    },
+    {
+      "id": 17,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt!",
+      "image2": "stickfairiesone.png",
+      "stepOrder": 1,
+      "projectId": 6
     }
   ],
   "items": [
+    {
+      "id": 1,
+      "title": "sticks",
+      "image": "stick.png",
+      "stepId": 17,
+      "isNature": true
+    },
     {
       "id": 1,
       "title": "sticks",
