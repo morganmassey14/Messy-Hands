@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 
 export const ProjectCard = ({ project }) => {
@@ -7,7 +8,7 @@ export const ProjectCard = ({ project }) => {
         <section className="project">
             <h1 className="project__name">{project.title}</h1>
             <picture>
-            <img src={require(`../../images/${project.image}`)} alt="projectImage" />
+            <Link to="/carousel" className="carousel"><img src={require(`../../images/${project.image}`)} alt="projectImage" /></Link>
             </picture>
         </section>
         </>

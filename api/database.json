@@ -53,6 +53,22 @@
   "steps": [
     {
       "id": 1,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt",
+      "description2": "Go and collect these items outside",
+      "stepOrder": 1,
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "title": "Step Two",
+      "description1": "Indoor Supplies",
+      "description2": "Get a grown-up to help collect these items inside",
+      "stepOrder": 2,
+      "projectId": 1
+    },
+    {
+      "id": 3,
       "title": "Step Three",
       "description1": "Use a marker to draw on a face",
       "description2": "Use some glue to stick the leaves on the back of your stick for fairy wings",
@@ -62,7 +78,7 @@
       "projectId": 1
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Step Four",
       "description1": "Add more leaves to make some clothes",
       "description2": "Use your extras to give your fairy a little hat",
@@ -71,8 +87,26 @@
       "stepOrder": 4,
       "projectId": 1
     },
+
     {
-      "id": 3,
+      "id": 5,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt",
+      "description2": "Go and collect these items outside",
+      "stepOrder": 1,
+      "projectId": 2
+    },
+    {
+      "id": 6,
+      "title": "Step Two",
+      "description1": "Indoor Supplies",
+      "description2": "Get a grown-up to help collect these items inside",
+      "stepOrder": 2,
+      "projectId": 2
+    },
+
+    {
+      "id": 7,
       "title": "Step Three",
       "description1": "Use your fingers to cover your cardboard in mud",
       "description2": "Press your leaves into the mud",
@@ -82,7 +116,7 @@
       "projectId": 2
     },
     {
-      "id": 4,
+      "id": 8,
       "title": "Step Four",
       "description1": "Press your flowers into the mud",
       "description2": "Press any of your extras in to finish",
@@ -92,7 +126,24 @@
       "projectId": 2
     },
     {
-      "id": 5,
+      "id": 9,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt",
+      "description2": "Go and collect these items outside",
+      "stepOrder": 1,
+      "projectId": 3
+    },
+    {
+      "id": 10,
+      "title": "Step Two",
+      "description1": "Indoor Supplies",
+      "description2": "Get a grown-up to help collect these items inside",
+      "stepOrder": 2,
+      "projectId": 3
+    },
+
+    {
+      "id": 11,
       "title": "Step Three",
       "description1": "Wash your rock off so it's nice and clean",
       "description2": "Use your paintbrush to cover the entire rock",
@@ -102,7 +153,7 @@
       "projectId": 3
     },
     {
-      "id": 6,
+      "id": 12,
       "title": "Step Four",
       "description1": "Paint two eyes onto your rock",
       "description2": "Add a nose and a smile!",
@@ -112,7 +163,23 @@
       "projectId": 3
     },
     {
-      "id": 7,
+      "id": 13,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt",
+      "description2": "Go and collect these items outside",
+      "stepOrder": 1,
+      "projectId": 4
+    },
+    {
+      "id": 13,
+      "title": "Step Two",
+      "description1": "Indoor Supplies",
+      "description2": "Get a grown-up to help collect these items inside",
+      "stepOrder": 2,
+      "projectId": 4
+    },
+    {
+      "id": 14,
       "title": "Step Three",
       "description1": "Apply paint to your leaves with your fingers or a paintbrush",
       "description2": "Flip leaf over, paintside down and press into the paper",
@@ -122,7 +189,7 @@
       "projectId": 4
     },
     {
-      "id": 8,
+      "id": 15,
       "title": "Step Four",
       "description1": "Apply paint to your flowers, or extras",
       "description2": "Press paint side down onto your paper",
@@ -131,8 +198,25 @@
       "stepOrder": 4,
       "projectId": 4
     },
+
     {
-      "id": 9,
+      "id": 15,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt",
+      "description2": "Go and collect these items outside",
+      "stepOrder": 1,
+      "projectId": 5
+    },
+    {
+      "id": 16,
+      "title": "Step Two",
+      "description1": "Indoor Supplies",
+      "description2": "Get a grown-up to help collect these items inside",
+      "stepOrder": 2,
+      "projectId": 5
+    },
+    {
+      "id": 17,
       "title": "Step Three",
       "description1": "Have a grownup cut two squares of contact paper, and peel the back off",
       "description2": "Arrange all of your nature peices on the sticky side",
@@ -142,7 +226,7 @@
       "projectId": 5
     },
     {
-      "id": 10,
+      "id": 18,
       "title": "Step Four",
       "description1": "Place the other piece of contact paper on top so the sticky sides touch",
       "description2": "Glue your popcicle sticks around the edges to make a frame. Add some string at the top",
@@ -152,7 +236,23 @@
       "projectId": 5
     },
     {
-      "id": 11,
+      "id": 19,
+      "title": "Step One",
+      "description1": "Nature Scavenger Hunt",
+      "description2": "Go and collect these items outside",
+      "stepOrder": 1,
+      "projectId": 6
+    },
+    {
+      "id": 20,
+      "title": "Step Two",
+      "description1": "Indoor Supplies",
+      "description2": "Get a grown-up to help collect these items inside",
+      "stepOrder": 2,
+      "projectId": 6
+    },
+    {
+      "id": 21,
       "title": "Step Three",
       "description1": "Have a grown up measure your head and cut your paper bag to fit",
       "description2": "Use your markers and/or paint to decorate the paper bag",
@@ -162,7 +262,7 @@
       "projectId": 6
     },
     {
-      "id": 12,
+      "id": 22,
       "title": "Step Four",
       "description1": "Use your glue to attach your nature pieces onto the paper bag",
       "description2": "Once dry, glue the backs together to form your crown!",
@@ -170,70 +270,258 @@
       "image2": "stickfairiesone.png",
       "stepOrder": 4,
       "projectId": 6
-    },
-    {
-      "id": 13,
-      "title": "Step One",
-      "description1": "Nature Scavenger Hunt!",
-      "image2": "stickfairiesone.png",
-      "stepOrder": 1,
-      "projectId": 1
-    },
-    {
-      "id": 14,
-      "title": "Step One",
-      "description1": "Nature Scavenger Hunt!",
-      "image2": "stickfairiesone.png",
-      "stepOrder": 1,
-      "projectId": 2
-    },
-    {
-      "id": 15,
-      "title": "Step One",
-      "description1": "Nature Scavenger Hunt!",
-      "image2": "stickfairiesone.png",
-      "stepOrder": 1,
-      "projectId": 3
-    },
-    {
-      "id": 16,
-      "title": "Step One",
-      "description1": "Nature Scavenger Hunt!",
-      "image2": "stickfairiesone.png",
-      "stepOrder": 1,
-      "projectId": 4
-    },
-    {
-      "id": 16,
-      "title": "Step One",
-      "description1": "Nature Scavenger Hunt!",
-      "image2": "stickfairiesone.png",
-      "stepOrder": 1,
-      "projectId": 5
-    },
-    {
-      "id": 17,
-      "title": "Step One",
-      "description1": "Nature Scavenger Hunt!",
-      "image2": "stickfairiesone.png",
-      "stepOrder": 1,
-      "projectId": 6
     }
   ],
   "items": [
     {
       "id": 1,
       "title": "sticks",
-      "image": "stick.png",
-      "stepId": 17,
-      "isNature": true
+      "image": "stick.png"
     },
     {
+      "id": 2,
+      "title": "cardboard",
+      "image": "cardboard.png"
+    },
+    {
+      "id": 3,
+      "title": "contact paper",
+      "image": "contactpaper.png"
+    },
+    {
+      "id": 4,
+      "title": "extras",
+      "image": "extras.png"
+    },
+    {
+      "id": 5,
+      "title": "flowers",
+      "image": "flowers.png"
+    },
+    {
+      "id": 6,
+      "title": "glue",
+      "image": "glue.png"
+    },
+    {
+      "id": 7,
+      "title": "leaves",
+      "image": "leaves.png"
+    },
+    {
+      "id": 8,
+      "title": "markers",
+      "image": "markers.png"
+    },
+    {
+      "id": 9,
+      "title": "mud",
+      "image": "mud.png"
+    },
+    {
+      "id": 10,
+      "title": "paintbrushes",
+      "image": "paintbrushes.png"
+    },
+    {
+      "id": 11,
+      "title": "paints",
+      "image": "paints.png"
+    },
+    {
+      "id": 12,
+      "title": "paper",
+      "image": "paper.png"
+    },
+    {
+      "id": 13,
+      "title": "paper bag",
+      "image": "paperbg.png"
+    },
+    {
+      "id": 14,
+      "title": "popsicle sticks",
+      "image": "popsiclesticks.png"
+    },
+    {
+      "id": 15,
+      "title": "rocks",
+      "image": "rocks.png"
+    },
+    {
+      "id": 16,
+      "title": "scissors",
+      "image": "scissors.png"
+    },
+    {
+      "id": 17,
+      "title": "string",
+      "image": "twine.png"
+    }
+
+  
+  ],
+
+  "stepItems": [
+    {
       "id": 1,
-      "title": "sticks",
-      "image": "stick.png",
-      "stepId": 1,
-      "isNature": true
+      "itemId": 1,
+      "stepId": 1
+    },
+    {
+      "id": 2,
+      "itemId": 1,
+      "stepId": 19
+    },
+    {
+      "id": 3,
+      "itemId": 2,
+      "stepId": 6
+    },
+    {
+      "id": 4,
+      "itemId": 4,
+      "stepId": 16
+    },
+    {
+      "id": 5,
+      "itemId": 5,
+      "stepId": 5
+    },
+    {
+      "id": 6,
+      "itemId": 5,
+      "stepId": 13
+    },
+    {
+      "id": 7,
+      "itemId": 5,
+      "stepId": 15
+    },
+    {
+      "id": 8,
+      "itemId": 5,
+      "stepId": 19
+    },
+    {
+      "id": 9,
+      "itemId": 6,
+      "stepId": 2
+    },
+    {
+      "id": 10,
+      "itemId": 6,
+      "stepId": 16
+    },
+    {
+      "id": 11,
+      "itemId": 6,
+      "stepId": 21
+    },
+    {
+      "id": 12,
+      "itemId": 7,
+      "stepId": 1
+    },
+    {
+      "id": 13,
+      "itemId": 7,
+      "stepId": 5
+    },
+    {
+      "id": 14,
+      "itemId": 7,
+      "stepId": 13
+    },
+    {
+      "id": 15,
+      "itemId": 7,
+      "stepId": 15
+    },
+    {
+      "id": 16,
+      "itemId": 7,
+      "stepId": 19
+    },
+    {
+      "id": 17,
+      "itemId": 8,
+      "stepId": 2
+    },
+    {
+      "id": 18,
+      "itemId": 8,
+      "stepId": 20
+    },
+    {
+      "id": 19,
+      "itemId": 9,
+      "stepId": 5
+    },
+    {
+      "id": 20,
+      "itemId": 10,
+      "stepId": 10
+    },
+    {
+      "id": 21,
+      "itemId": 10,
+      "stepId": 13
+    },
+    {
+      "id": 22,
+      "itemId": 10,
+      "stepId": 20
+    },
+    {
+      "id": 23,
+      "itemId": 11,
+      "stepId": 10
+    },
+    {
+      "id": 24,
+      "itemId": 11,
+      "stepId": 13
+    },
+    {
+      "id": 25,
+      "itemId": 11,
+      "stepId": 20
+    },
+    {
+      "id": 26,
+      "itemId": 12,
+      "stepId": 13
+    },
+    {
+      "id": 27,
+      "itemId": 13,
+      "stepId": 20
+    },
+    {
+      "id": 28,
+      "itemId": 14,
+      "stepId": 16
+    },
+    {
+      "id": 29,
+      "itemId": 15,
+      "stepId": 9
+    },
+    {
+      "id": 30,
+      "itemId": 16,
+      "stepId": 16
+    },
+    {
+      "id": 31,
+      "itemId": 16,
+      "stepId": 20
+    },
+    {
+      "id": 32,
+      "itemId": 17,
+      "stepId": 16
     }
   ]
 }
