@@ -16,13 +16,13 @@ export const deleteGallary = (id) => {
     }).then(result => result.json())
 }
 
-export const addGallary = (newGallary) => {
-    return fetch(`${remoteURL}/gallary`, {
+export const addGallaryEntry = (newGallaryEntry) => {
+    return fetch(`${remoteURL}/gallaryentries`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(newGallary)
+        body: JSON.stringify(newGallaryEntry)
     }).then(response => response.json())
 }
 
