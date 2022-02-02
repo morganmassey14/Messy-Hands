@@ -8,6 +8,7 @@ import { GallaryList } from "./gallary/GallaryList"
 import { GallaryEditForm } from "./gallary/GallaryEdit"
 import { NavBar } from "./nav/NavBar"
 import { MHCarousel } from "./MHCarousel"
+import { GallaryForm } from "./gallary/GallaryForm"
 
 export const ApplicationViews = ({setAuthUser, isAuthenticated, clearUser}) => {
 
@@ -32,6 +33,10 @@ export const ApplicationViews = ({setAuthUser, isAuthenticated, clearUser}) => {
         <Route exact path="/gallary">
             <GallaryList />
         </Route>
+
+        <Route path="/gallary/create">
+                <GallaryForm />
+            </Route>
 
         <Route path="/:gallaryId(\d+)/edit">
             <GallaryEditForm />
