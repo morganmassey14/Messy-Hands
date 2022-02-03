@@ -17,7 +17,7 @@ export const deleteGallary = (id) => {
 }
 
 export const addGallaryEntry = (newGallaryEntry) => {
-    return fetch(`${remoteURL}/gallaryentries`, {
+    return fetch(`${remoteURL}/gallary`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

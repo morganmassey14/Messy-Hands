@@ -66,7 +66,7 @@ return (
   <img className="cendearth" src={cendearth} alt="" />
   <img className="cendtree" src={cendtree} alt="" />
   <h3>Click on the camera to take a picture</h3>
-  <Link to="/" className="camera__button"><img className="camerabutton" src={camera} alt="" /></Link>
+  <Link to="/gallary/create" className="camera__button"><img className="camerabutton" src={camera} alt="" /></Link>
   <h3>Click on the art to go to your gallary</h3>
   <Link to="/gallary" className="mhcgallary__button"><img className="mhcgallarybutton" src={gallary} alt="" /></Link>
   </Carousel.Item>

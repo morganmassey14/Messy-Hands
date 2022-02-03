@@ -33,7 +33,7 @@ export const GallaryList = () => {
                 </button>
         </section>
         <div className="section__gallaries">
-            {gallaries.map(gallary => <GallaryCard key={gallary.id} gallaries={gallaries} gallary={gallary} handleDeleteGallary={handleDeleteGallary} /> )}
+            {gallaries.map(gallary => <GallaryCard key={gallary.id} gallary={gallary} handleDeleteGallary={handleDeleteGallary} /> )}
         </div>
         </>
     )

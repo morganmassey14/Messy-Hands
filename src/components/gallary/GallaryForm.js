@@ -7,8 +7,11 @@ export const GallaryForm = () => {
 
     const [gallaryEntry, setGallaryEntry] = useState({
         userId: user,
-        gallaryTitle: ""
+        title: "",
+        image: ""
     })
+    const [loading, setLoading] = useState(false);
+    const [image, setImage] = useState("")
 
     const history = useHistory();
 
@@ -24,9 +27,27 @@ export const GallaryForm = () => {
         setGallaryEntry(newGallaryEntry)
     }
 
-    const handleCancelButton = () => {
-        history.push("/gallary")
-    }
+   
+    const uploadImage = async (e) => {
+        console.log("upload image", e)
+        const files = e.target.files;
+        const data = new FormData();
+        data.append("file", files[0]);
+        data.append("upload_preset", "ltpz1b8n");
+        setLoading(true);
+        
+        const res = await fetch(
+            "https://api.cloudinary.com/v1_1/dexjhtget/image/upload",
+            {
+                method: "POST",
+                body: data,
+            }
+        );
+
+        const file = await res.json();
+        setImage(file.secure_url);
+        setLoading(false);
+    };
 
     const handleClickSaveGallaryEntry = (event) => {
         event.preventDefault()
@@ -37,22 +58,18 @@ export const GallaryForm = () => {
 
     return (
         <>
-        <form className="gallaryForm">
-            <fieldset>
-                <div className="form-group">
-                    <label htmlFor="gallaryTitle">Gallary Title</label>
-                    <input type="text" id="gallaryTitle" onChange={handleControlledInputChange} required autoFocus className="gallarytitle" value= {gallaryEntry.gallaryTitle} />
-                </div>
-                <button className="buttonSave"
+        <div>
+        <img className="mainImage" src={image} />
+                    <input className="" type="file" id="image" onChange={(event) => {uploadImage(event)}} placeholder="image" />
+                    </div>
+                    <div className="form-group">
+					<label htmlFor="gallaryTitle">Name of Your Creation</label>
+					<input type="title" id="title" onChange={handleControlledInputChange} required autoFocus className="gallaryTitle" placeholder="title" value={gallaryEntry.title} />
+				</div>
+                    <button className="buttonSave"
 				onClick={handleClickSaveGallaryEntry}>
-				Save
+				POST
           </button>
-          <button className="buttonCancel"
-                onClick={handleCancelButton}>
-                Cancel
-            </button>
-            </fieldset>
-        </form>
         </>
     )
 }

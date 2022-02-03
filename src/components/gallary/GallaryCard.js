@@ -7,13 +7,16 @@ import trash from "../../images/trash.png";
 export const GallaryCard = ({ gallary, handleDeleteGallary }) => {
     const history = useHistory();
     return (
+        <>
         <section className="gallary">
             <h1 className="gallary__name">{gallary.title}</h1>
+            <img src={gallary.image} alt=""/>
             <button className="buttonDelete" onClick={() => handleDeleteGallary(gallary.id)}><img src={trash}/></button>
             <button className="buttonEdit" 
                 onClick={() => history.push(`/${gallary.id}/edit`)}><img src={pencil}/>
             </button>
         </section>
+        </>
     
     )
 }
