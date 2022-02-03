@@ -6,6 +6,7 @@ import gallary from "../../images/gallary.png"
 import logout from "../../images/logout.png"
 import navlogo from "../../images/navlogo.png"
 
+
 export const NavBar = ({ clearUser }) => {
 
     const history = useHistory()

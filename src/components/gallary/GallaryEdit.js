@@ -7,9 +7,11 @@ export const GallaryEditForm = () => {
     const [gallary, setGallary] = useState({ 
         id: 0,
         userId: user,
-        title: ""
+        title: "",
+        image: ""
     });
 
+    const [image, setImage] = useState("")
 
     const [isLoading, setIsLoading] = useState(false);
 
@@ -27,17 +29,40 @@ export const GallaryEditForm = () => {
         getGallaryById(gallaryId)
             .then(gallary => {
                 setGallary(gallary);
-                setIsLoading(false)
+                setImage(gallary.image)
             })
     }, []);
 
-    const updateExistingGallary = evt => {
-        evt.preventDefault()
+    const uploadImage = async (e) => {
+      console.log("upload image", e)
+      const files = e.target.files;
+      const data = new FormData();
+      data.append("file", files[0]);
+      data.append("upload_preset", "ltpz1b8n");
+      setIsLoading(true);
+      
+      const res = await fetch(
+          "https://api.cloudinary.com/v1_1/dexjhtget/image/upload",
+          {
+              method: "POST",
+              body: data,
+          }
+      );
+
+        const file = await res.json();
+        setImage(file.secure_url);
+        setIsLoading(false);
+  };
+
+
+    const updateExistingGallary = event => {
+        event.preventDefault()
         setIsLoading(true);
         const editedGallaryObj ={
             id: parseInt(gallaryId),
             userId: user,
-            title: gallary.title
+            title: gallary.title,
+            image: image ? image : user.image
         }
 
         update(editedGallaryObj, gallaryId)
@@ -48,9 +73,14 @@ export const GallaryEditForm = () => {
 
 return (
 <>
+<div>
+<img className="mainImage" src={image} />
+                    <input className="" type="file" id="image" onChange={(event) => {uploadImage(event)}} placeholder="image" />
+                    </div>
 <form>
         <fieldset>
           <div className="formgrid">
+          <label htmlFor="gallaryTitle">Name of Your Creation</label>
             <input
               type="text"
               required
@@ -63,7 +93,7 @@ return (
               type="button" disabled={isLoading}
               onClick={updateExistingGallary}
               className="btn btn-primary"
-            >Submit</button>
+            >UPDATE</button>
           </div>
         </fieldset>
       </form>

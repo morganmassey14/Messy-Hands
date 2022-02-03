@@ -8,9 +8,10 @@
   ],
   "gallary": [
     {
-      "id": 1,
       "userId": 1,
-      "title": "Archer's Fairy"
+      "title": "erdfgdf",
+      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1643917072/udt13app2tdrqsgp2pbr.png",
+      "id": 2
     }
   ],
   "projects": [
@@ -554,11 +555,6 @@
       "id": 36,
       "itemId": 16,
       "stepId": 22
-    },
-    {
-      "id": 37,
-      "itemId": 17,
-      "stepId": 28
     }
   ]
 }
