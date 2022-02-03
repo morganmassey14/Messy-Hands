@@ -1,0 +1,27 @@
+.project__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+.project__earth {
+    width: 50%;
+    padding-bottom: 1em;
+}
+.project__stars {
+    width: 50%;
+    padding-top: 1em;
+}
+
+.text__container {
+    position: relative;
+    text-align: center;
+    h1{
+        position: absolute;
+        padding: 0.25em;
+    }
+}
+
+#projects {
+    padding: 2em;
+}

@@ -1,3 +1,23 @@
-.navbar {
+.bg-img {
     background-image: url("../images/navbarbgimg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    width:fit-content;
+}
+.navbar__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__links {
+    display: flex;
 }
