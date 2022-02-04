@@ -1,0 +1,47 @@
+.logo__friends{
+display: flex;
+justify-content: center;
+padding: 1em;
+
+    .c1earth {
+        width: 30%;
+    }
+    .c1star {
+        width: 30%;
+    }
+    .c1tree {
+        width: 30%;
+    }
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a.carousel-control-next{
+    position: relative;
+    width: 150px;
+    height: 150px;
+  
+    span.carousel-control-next-icon{
+        display: flex;
+        background-image: url("../images/nextarrow.png");   
+        width: 150px;
+        height: 150px;
+    
+    }
+}
+
+a.carousel-control-prev{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    span.carousel-control-prev-icon{
+    background-image: url("../images/previousarrow.png");
+    width: 150px;
+    height: 150px;
+    }
+}

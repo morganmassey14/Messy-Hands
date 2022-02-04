@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2em;
+    padding: 2em 2em 0em 2em;
 }
 .project__earth {
-    width: 50%;
+    width: 70%;
     padding-bottom: 1em;
 }
 .project__stars {
-    width: 50%;
+    width: 70%;
     padding-top: 1em;
 }
 
@@ -22,6 +22,9 @@
     }
 }
 
-#projects {
+.project__image {
     padding: 2em;
+  img {
+        padding-bottom: 2em;
+    }
 }

@@ -40,9 +40,11 @@ return (
 
   <Carousel.Item>
     <div className="step__one">
-    <img className="c1earth" src={c1earth} alt="" />
-    <img className="c1star" src={c1star} alt="" />
-    <img className="c1tree" src={c1tree} alt="" />
+      <div className="logo__friends">
+        <img className="c1star" src={c1star} alt="" />
+        <img className="c1earth" src={c1earth} alt="" />
+        <img className="c1tree" src={c1tree} alt="" />
+    </div>
     <h3>click the blue arrow to go back</h3>
       <h3>click the green arrow to see the next step</h3>
       </div>

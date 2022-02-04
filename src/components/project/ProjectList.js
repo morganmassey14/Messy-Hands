@@ -31,7 +31,9 @@ export const ProjectList = () => {
         </div>
         <img className="project__stars" src={pstars} alt="" />
         </div> 
+        <div className="project__image">
             {projects.map(project => <ProjectCard key={project.id} project={project} /> )}
+            </div>
         </div>
         </>
     )
