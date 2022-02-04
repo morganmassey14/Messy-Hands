@@ -9,12 +9,13 @@ import gallary from "../images/carouselgallary.png";
 import c1earth from "../images/c1earth.png";
 import c1star from "../images/c1star.png";
 import c1tree from "../images/c1tree.png";
-import c23earth from "../images/c23earth.png";
-import c23star from "../images/c23star.png";
 import finishfriends from "../images/finishfriends.png";
 import cendtree from "../images/cendtree.png";
 import cendstar from "../images/cendstar.png";
 import cendearth from "../images/cendearth.png";
+import blueback from "../images/bluearrowdesc.png";
+import greennext from "../images/greenarrowdesc.png";
+
 
 
 
@@ -36,7 +37,7 @@ useEffect(() => {
 
 return (
   <>
-<Carousel interval={null} nextLabel={null}>
+<Carousel interval={null} nextLabel={null}> 
 
   <Carousel.Item>
     <div className="step__one">
@@ -45,16 +46,17 @@ return (
         <img className="c1earth" src={c1earth} alt="" />
         <img className="c1tree" src={c1tree} alt="" />
     </div>
-    <h3>click the blue arrow to go back</h3>
-      <h3>click the green arrow to see the next step</h3>
+    <div className="description__arrows">
+    <img className="text__bg" src={blueback} alt="" />
+    <img className="text__bg" src={greennext} alt="" />
+      </div>
       </div>
   </Carousel.Item>
   
-  {steps.map(stepObj => <Carousel.Item key={stepObj.id} > 
-    <img className="c23earth" src={c23earth} alt="" />
-    <img className="c23star" src={c23star} alt="" />   
-  <StepCard step={stepObj} /> 
+    {steps.map(stepObj => <Carousel.Item key={stepObj.id} >  
+      <StepCard step={stepObj} ></StepCard>
   </Carousel.Item>)}
+
   
   
   <Carousel.Item>

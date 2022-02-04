@@ -1,3 +1,4 @@
+@import "./_colors.scss";
 @import "./navbar.scss";
 @import "./projects.scss";
 @import "./mhcarousal.scss";
@@ -12,6 +13,12 @@ body {
 }
 
 h1 {
+    font-family: 'Atma', cursive;
+    font-size: 60px;
+
+}
+
+h2{
     font-family: 'Atma', cursive;
 }
 

@@ -19,15 +19,19 @@ padding: 1em;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+
+    .carousel-indicators { 
+        visibility: hidden; }
 }
 
 a.carousel-control-next{
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
+    margin-top: 250px;
+    opacity: 1;
   
     span.carousel-control-next-icon{
-        display: flex;
         background-image: url("../images/nextarrow.png");   
         width: 150px;
         height: 150px;
@@ -36,12 +40,50 @@ a.carousel-control-next{
 }
 
 a.carousel-control-prev{
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 150px;
+    margin-top: 250px;
+    opacity: 1;
+    
     span.carousel-control-prev-icon{
-    background-image: url("../images/previousarrow.png");
-    width: 150px;
-    height: 150px;
+        background-image: url("../images/previousarrow.png");
+        width: 150px;
+        height: 150px;
     }
+}
+
+span.blue {
+    color: $blue;
+}
+
+span.green {
+    color: $green;
+}
+
+.description__arrows {
+    display: flex;
+    justify-content: space-around;
+}
+
+img.text__bg{
+    width: 150px;
+}
+
+img.c23earth {
+    width: 50%;
+}
+
+.text__container2 {
+    margin-top: 8em;
+    position: relative;
+    padding: 0em 1em 1em 3em;
+    h2{
+        position: absolute;
+        padding: 1em 2em 1em 1em;
+    }
+}
+
+h1.item__name {
+    text-align: center;
 }

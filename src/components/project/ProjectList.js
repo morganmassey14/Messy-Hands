@@ -26,7 +26,7 @@ export const ProjectList = () => {
         <div className="project__intro">   
         <img className="project__earth" src={earth} alt="" />
         <div className="text__container">
-        <h1>Click on a picture to start a craft</h1>
+        <h2>Click on a picture to start a craft</h2>
         <img className="centered" src={textbg} alt="" />
         </div>
         <img className="project__stars" src={pstars} alt="" />
