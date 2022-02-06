@@ -58,18 +58,21 @@ export const GallaryForm = () => {
 
     return (
         <>
-        <div>
+        <div className="gallary__form">
         <img className="mainImage" src={image} />
-                    <input className="" type="file" id="image" onChange={(event) => {uploadImage(event)}} placeholder="image" />
-                    </div>
+        <fieldset className="file-input">
+                    <input type="file" id="file" className="file" onChange={uploadImage}/>
+                    <label for="file">Choose File</label>
+                </fieldset>
                     <div className="form-group">
 					<label htmlFor="gallaryTitle">Name of Your Creation</label>
 					<input type="title" id="title" onChange={handleControlledInputChange} required autoFocus className="gallaryTitle" placeholder="title" value={gallaryEntry.title} />
-				</div>
-                    <button className="buttonSave"
+                <button className="buttonSave"
 				onClick={handleClickSaveGallaryEntry}>
 				POST
           </button>
+          </div>
+          </div>
         </>
     )
 }

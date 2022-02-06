@@ -60,19 +60,25 @@ return (
   
   
   <Carousel.Item>
-  <h3>Great job!! You did it!!</h3>
+  <h3 className="finish__text">Great job!! You did it!!</h3>
   <img className="finishfriends" src={finishfriends} alt="" />
   </Carousel.Item>
 
-  <Carousel.Item >
-  <span aria-hidden="true" className="carousel-control-next-icon" />
-  <img className="cendstar" src={cendstar} alt="" />
+  <Carousel.Item>
+  <div className="gallary__end">
+  <h3 className="finish__text">Picture Time!!!</h3>
   <img className="cendearth" src={cendearth} alt="" />
-  <img className="cendtree" src={cendtree} alt="" />
-  <h3>Click on the camera to take a picture</h3>
+  <div className="gallary__container1">
+  <h2>Click on the camera to take a picture</h2>
+  <img className="centered" src={cendstar} alt="" />
+  </div>
   <Link to="/gallary/create" className="camera__button"><img className="camerabutton" src={camera} alt="" /></Link>
-  <h3>Click on the art to go to your gallary</h3>
+  <div className="gallary__container2">
+  <h2>Click on the art to go to your gallary</h2>
+  <img className="centered" src={cendtree} alt="" />
+  </div>
   <Link to="/gallary" className="mhcgallary__button"><img className="mhcgallarybutton" src={gallary} alt="" /></Link>
+  </div>  
   </Carousel.Item>
 </Carousel>
 </>

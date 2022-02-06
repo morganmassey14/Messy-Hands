@@ -87,3 +87,40 @@ img.c23earth {
 h1.item__name {
     text-align: center;
 }
+h3 {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+img.finishfriends {
+    padding: 0em 1em 1em 1em;
+}
+
+img.cendearth {
+    width: 50%;
+}
+
+.gallary__end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallary__container1 {
+    position: relative;
+    padding: 10em 2em 0em 2em;
+    h2{
+        position: absolute;
+        padding: 6.5em 2em 0em 1.5em;
+    }
+}
+
+.gallary__container2 {
+    position: relative;
+    text-align: center;
+    padding-top: 2em;
+    h2{
+        position: absolute;
+        padding: 6.5em 0.5em 2em 0em;
+    }
+}
