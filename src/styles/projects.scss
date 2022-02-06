@@ -1,0 +1,41 @@
+.project__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 2em 0em 2em;
+}
+.project__earth {
+    width: 70%;
+    padding-bottom: 1em;
+}
+.project__stars {
+    width: 70%;
+    padding-top: 1em;
+}
+
+.text__container {
+    position: relative;
+    text-align: center;
+    h2{
+        position: absolute;
+        padding: 0.25em;
+    }
+}
+
+.project__image {
+    padding: 2em;
+  img {
+        padding-bottom: 2em;
+    }
+}
+
+section.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.c23star {
+    margin-top: 5em;
+    padding: 0em 1em 1em 3.5em;
+}

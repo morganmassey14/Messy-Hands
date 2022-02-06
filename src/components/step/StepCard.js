@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react"
 import { getStepItemsByStepId } from "../../modules/ItemsManager";
 import { ItemCard } from "../item/ItemCard";
+import c23earth from "../../images/c23earth.png";
+import c23star from "../../images/c23star.png";
 
 export const StepCard = ({ step }) => {   
 const [items, setItems] = useState([]);
@@ -19,11 +21,15 @@ useEffect(() => {
     return (
         <>
     
-            {items.map(itemObj =><ItemCard key={itemObj.id} item={itemObj.item} />)}
             <section className="step">
             <h1 className="step__name">{step.title}</h1>
-            <h1 className="step__description1">{step.description1}</h1>
-            <h1 className="step__description1">{step.description2}</h1>
+            <h2 className="step__description1">{step.description1}</h2>
+            <img className="c23earth" src={c23earth} alt="" />
+            <div className="text__container2">
+            <h2 className="step__description1">{step.description2}</h2>
+            <img className="centered" src={c23star} alt="" /> 
+            </div>
+            {items.map(itemObj =><ItemCard key={itemObj.id} item={itemObj.item} />)}
            
             {step.image1 != "" &&
             <>

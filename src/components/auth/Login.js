@@ -68,7 +68,3 @@ return (
 )
 
 }
-
-{/* <Router>
- <Link to='https://google.com/'><button>GO GOOGLE</button></Link>
-</Router> */}

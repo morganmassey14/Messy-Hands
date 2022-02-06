@@ -1,5 +1,8 @@
+@import "./_colors.scss";
 @import "./navbar.scss";
+@import "./projects.scss";
 @import "./mhcarousal.scss";
+@import "./gallary.scss";
 @import "bootstrap/scss/bootstrap.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@500&display=swap');
@@ -10,10 +13,30 @@ body {
     background-size: 100%;
 }
 
-h1 {
+h1{
     font-family: 'Atma', cursive;
+    font-size: 60px;
+
+}
+
+h2{
+    font-family: 'Atma', cursive;
+}
+
+h3 {
+    font-family: 'Atma', cursive;
+    font-size: 40px;
 }
 
 p {
     font-family:'Roboto', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+button {
+    font-family: 'Atma', cursive;
+    font-size: 40px;
 }
