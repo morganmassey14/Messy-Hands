@@ -24,6 +24,12 @@
       "title": "ghgh",
       "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1644255785/kht1frtsvjopf8e50pun.png",
       "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Nature Collage",
+      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1644275284/maji265r7b8inmqumkdu.jpg",
+      "id": 5
     }
   ],
   "projects": [
@@ -35,7 +41,7 @@
     {
       "id": 2,
       "title": "Mud Collage",
-      "image": "stickfairies.jpg"
+      "image": "collage4.jpg"
     },
     {
       "id": 3,
@@ -45,7 +51,7 @@
     {
       "id": 4,
       "title": "Nature Prints",
-      "image": "stickfairies.jpg"
+      "image": "natureprint4.jpg"
     },
     {
       "id": 5,
@@ -124,8 +130,8 @@
       "title": "Step Three",
       "description1": "Use your fingers to cover your cardboard in mud",
       "description2": "Press your leaves into the mud",
-      "image1": "stickfairies.jpg",
-      "image2": "stickfairies.jpg",
+      "image1": "collage1.jpg",
+      "image2": "collage2jpg.jpg",
       "stepOrder": 3,
       "projectId": 2
     },
@@ -134,8 +140,8 @@
       "title": "Step Four",
       "description1": "Press your flowers into the mud",
       "description2": "Press any of your extras in to finish",
-      "image1": "stickfairies.jpg",
-      "image2": "stickfairies.jpg",
+      "image1": "collage3.jpg",
+      "image2": "collage4.jpg",
       "stepOrder": 4,
       "projectId": 2
     },
@@ -204,8 +210,8 @@
       "title": "Step Three",
       "description1": "Apply paint to your leaves with your fingers or a paintbrush",
       "description2": "Flip leaf over, paintside down and press into the paper",
-      "image1": "stickfairies.jpg",
-      "image2": "stickfairies.jpg",
+      "image1": "natureprint1.jpg",
+      "image2": "natureprint2.jpg",
       "stepOrder": 3,
       "projectId": 4
     },
@@ -214,8 +220,8 @@
       "title": "Step Four",
       "description1": "Apply paint to your flowers, or extras",
       "description2": "Press paint side down onto your paper",
-      "image1": "stickfairies.jpg",
-      "image2": "stickfairies.jpg",
+      "image1": "natureprint3.jpg",
+      "image2": "natureprint4.jpg",
       "stepOrder": 4,
       "projectId": 4
     },
