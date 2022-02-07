@@ -46,7 +46,11 @@ export const GallaryForm = () => {
 
         const file = await res.json();
         setImage(file.secure_url);
+        const newGallaryEntry = { ...gallaryEntry }
+        newGallaryEntry.image = file.secure_url
+        setGallaryEntry(newGallaryEntry);
         setLoading(false);
+        
     };
 
     const handleClickSaveGallaryEntry = (event) => {
@@ -56,17 +60,28 @@ export const GallaryForm = () => {
         .then(() => history.push("/gallary"))
     }
 
-    return (
+    return ( 
         <>
         <div className="gallary__form">
-        <img className="mainImage" src={image} />
+            {image ? (
+                <img
+               src={image} />
+            ) : (
+                <img className="default__img"
+                src={require(`../../images/defaultimg.png`)} />
+            
+            )}
+    
         <fieldset className="file-input">
                     <input type="file" id="file" className="file" onChange={uploadImage}/>
-                    <label for="file">Choose File</label>
+                    <label htmlFor="file" className="custom__file">
+                CHOOSE PIC
+            </label>
                 </fieldset>
-                    <div className="form-group">
-					<label htmlFor="gallaryTitle">Name of Your Creation</label>
-					<input type="title" id="title" onChange={handleControlledInputChange} required autoFocus className="gallaryTitle" placeholder="title" value={gallaryEntry.title} />
+                <div className="title__">
+					<label htmlFor="gallaryTitle">Name of Your Creation</label></div>
+					<input type="title" id="title" onChange={handleControlledInputChange} required autoFocus className="gallaryTitle" value={gallaryEntry.title} />
+                <div className="save__button">
                 <button className="buttonSave"
 				onClick={handleClickSaveGallaryEntry}>
 				POST

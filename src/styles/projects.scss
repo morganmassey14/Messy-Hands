@@ -31,11 +31,29 @@
 
 section.step {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
 }
 
 img.c23star {
     margin-top: 5em;
     padding: 0em 1em 1em 3.5em;
+}
+
+img.step__image1 {
+    padding: 10em 2em 2em 2em;
+}
+
+img.step__image2 {
+    padding: 2em;
+}
+
+h2.step__description2 {
+    text-align: left;
+    padding: 0em 1em;
+}
+
+h2.step__description1 {
+    text-align: left;
+    padding: 0em 1em;
 }

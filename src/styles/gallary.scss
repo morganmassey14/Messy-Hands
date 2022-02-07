@@ -1,7 +1,103 @@
 button.buttonSave {
     border-radius: 10px;
-    background: #07693B;
-    color: #000000;
-    padding: 0em 2em 0em 2em;
+    background-color: $blue;
+    padding: 5px 78px 5px 78px;
+    font-size: 25px;
+    margin: 20px 0px 10px 0px;
     border: none;
     }
+
+    input[type="file"] {
+        display: none;
+    }
+
+    label.custom__file{
+    border-radius: 10px;
+    background-color: $blue;
+    padding: 5px 43px 5px 43px;
+    font-size: 25px;
+    margin: 20px 0px 5px 0px;
+    border: none;
+    font-family:'Atma', cursive;
+    color: $black;
+}
+
+.gallary__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__ {
+    padding-right: 2em;
+}
+
+img.mainImage {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.gallary-edit__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.buttonUpdate  {
+    border-radius: 10px;
+    background-color: $blue;
+    padding: 5px 65px 5px 65px;
+    font-size: 25px;
+    margin: 20px 0px 10px 0px;
+    border: none;
+    }
+
+button.newArt__button {
+    border-radius: 10px;
+    background-color: $blue;
+    padding: 5px 65px 5px 65px;
+    font-size: 25px;
+    border: none; 
+    margin-top: 1em;
+}
+
+.section__gallaries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.buttonEdit {
+    background: none;
+    border: none;
+}
+
+button.buttonDelete {
+    background: none;
+    border: none; 
+    padding: 0.5em 0em 0.5em 2.5em;
+}
+
+img.gallary__image {
+    padding: 1em;
+}
+
+h1.gallary__name {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+img.gallary__instructions {
+    padding: 2em;
+}
+
+img.gallary__logo {
+    width: 50%;
+    padding-top: 2em;
+}
+
+img.default__img {
+    padding-top: 1.5em;
+    width: 70%;
+}

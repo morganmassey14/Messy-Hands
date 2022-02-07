@@ -45,9 +45,12 @@ return (
         <section className="main">
         <img className="lr__banner" src={lrbanner} alt="" />
         <img className="lr__logo" src={logo} alt="" />
+        <div className="login__form">
             <form id="form" className="topBefore" onSubmit={handleLogin}>
                 <fieldset>
+                    <div className="email__input">
                     <label htmlFor="input__email">Email</label>
+                    </div>
                     <input type="email"
                     id="email"
                     className="email"
@@ -58,11 +61,11 @@ return (
                 <button className="login__button" type="submit">
                     LOG-IN
                 </button>
-                <div className="register">
-                    <p> No account?</p>
-                <Link to="/register">Sign up</Link>
+                <div className="register__redirect">
+                    <p> No account? <Link to="/register">Sign up</Link></p>
                 </div>
             </form>
+            </div>
         </section>
     </main>
 )
