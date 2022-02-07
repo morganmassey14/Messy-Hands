@@ -69,9 +69,12 @@ return (
         <section className="register">
         <img className="lr__banner" src={lrbanner} alt="" />
         <img className="lr__logo" src={logo} alt="" />
-            <form id= "form" className="form" className="topBefore" onSubmit={handleRegister}>
+        <div className="register__form">
+            <form id= "form" className="topBefore" onSubmit={handleRegister}>
                 <fieldset>
+                    <div className="name__input">
                     <label htmlFor="firstName">Name</label>
+                    </div>
                     <input type="text" 
                     name="firstName" 
                     id="firstName" 
@@ -80,7 +83,9 @@ return (
                     onChange={handleInputChange} />
                 </fieldset>
                 <fieldset>
+                    <div className="email__input">
                     <label htmlFor="inputEmail">Email</label>
+                    </div>
                     <input type="email" 
                     name="email" 
                     id="email" className="email"  
@@ -92,15 +97,16 @@ return (
                     <div className="registerbutton">
                     <button className="buttonSubmitRegister" type="submit">CREATE ACCOUNT</button>
                     </div>
-                    <div className="signIn">
-                        <p>Have an account?</p>
-                        <Link to="/login">Log in</Link>
+                    <div className="signIn__redirect">
+                        <p>Have an account? <Link to="/login">Log in</Link></p>
+                        
                     </div>
                     
                 </fieldset>
                 </div>
                 
             </form>
+            </div>
         </section>
     </main>
 )

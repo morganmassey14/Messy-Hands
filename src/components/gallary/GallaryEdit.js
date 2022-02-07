@@ -73,29 +73,32 @@ export const GallaryEditForm = () => {
 
 return (
 <>
-<div>
+<div className="gallary-edit__form">
 <img className="mainImage" src={image} />
-                    <input className="" type="file" id="image" onChange={(event) => {uploadImage(event)}} placeholder="image" />
-                    </div>
-<form>
-        <fieldset>
-          <div className="formgrid">
-          <label htmlFor="gallaryTitle">Name of Your Creation</label>
-            <input
-              type="text"
+<fieldset className="file-input">
+      <input type="file" id="file" className="file" onChange={uploadImage}/>
+      <label htmlFor="file" className="custom__file">
+                CHOOSE PIC
+      </label>
+        </fieldset>
+          <div className="title__">
+          <label htmlFor="gallaryTitle">Name of Your Creation</label></div>
+            <input type="title"
               required
-              className="form-control"
+              className="gallaryTitle"
               onChange={handleFieldChange}
               id="title"
               value={gallary.title}
             />
+            <div className="update__button">
             <button
               type="button" disabled={isLoading}
               onClick={updateExistingGallary}
-              className="btn btn-primary"
+              className="buttonUpdate"
             >UPDATE</button>
           </div>
-        </fieldset>
-      </form>
+          </div>
+        
+    
 </>
 )}

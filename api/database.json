@@ -8,10 +8,22 @@
   ],
   "gallary": [
     {
+      "id": 2,
       "userId": 1,
       "title": "erdfgdf",
-      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1643917072/udt13app2tdrqsgp2pbr.png",
-      "id": 2
+      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1643917072/udt13app2tdrqsgp2pbr.png"
+    },
+    {
+      "userId": 1,
+      "title": "name",
+      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1644255637/x0x9sdbgmwn5g7ujdlqm.png",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "ghgh",
+      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1644255785/kht1frtsvjopf8e50pun.png",
+      "id": 4
     }
   ],
   "projects": [
