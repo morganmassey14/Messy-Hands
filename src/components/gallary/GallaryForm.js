@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { addGallaryEntry } from '../../modules/GallaryManager';
+import postlogo from "../../images/editlogo.png";
+import posttext from "../../images/posttext.png";
 
 export const GallaryForm = () => {
     let user = parseInt(sessionStorage.getItem("mh_user"))
@@ -62,6 +64,11 @@ export const GallaryForm = () => {
 
     return ( 
         <>
+        <div className="post">
+        <div className="post__desription">
+        <img className="postlogo" src={postlogo} alt="" />
+        <img className="posttext" src={posttext} alt="" /> 
+        </div>
         <div className="gallary__form">
             {image ? (
                 <img
@@ -86,6 +93,7 @@ export const GallaryForm = () => {
 				onClick={handleClickSaveGallaryEntry}>
 				POST
           </button>
+          </div>
           </div>
           </div>
         </>

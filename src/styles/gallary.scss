@@ -1,3 +1,10 @@
+.gallary-btn-into__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
 button.buttonSave {
     border-radius: 10px;
     background-color: $blue;
@@ -59,7 +66,6 @@ button.newArt__button {
     padding: 5px 65px 5px 65px;
     font-size: 25px;
     border: none; 
-    margin-top: 1em;
 }
 
 .section__gallaries {
@@ -100,4 +106,194 @@ img.gallary__logo {
 img.default__img {
     padding-top: 1.5em;
     width: 70%;
+}
+
+.post__desription {
+    display: flex;
+    margin-top: 1.5em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img.posttext {
+    width: 150px;
+}
+
+img.postlogo {
+    width: 200px;
+}
+
+.edit__desription {
+    display: flex;
+    margin-top: 1.5em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img.edittext {
+    width: 150px;
+}
+
+img.editlogo {
+    width: 200px;
+}
+
+
+@media only screen and (min-width:576px) {
+    button.buttonSave {
+        border-radius: 10px;
+        background-color: $blue;
+        padding: 5px 78px 5px 78px;
+        font-size: 25px;
+        margin: 20px 0px 10px 0px;
+        border: none;
+        }
+    
+        input[type="file"] {
+            display: none;
+        }
+    
+        label.custom__file{
+        border-radius: 10px;
+        background-color: $blue;
+        padding: 5px 43px 5px 43px;
+        font-size: 25px;
+        margin: 20px 0px 5px 0px;
+        border: none;
+        font-family:'Atma', cursive;
+        color: $black;
+    }
+    
+    .gallary__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .title__ {
+        padding-right: 2em;
+    }
+    
+    img.mainImage {
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+    .gallary-edit__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    button.buttonUpdate  {
+        border-radius: 10px;
+        background-color: $blue;
+        padding: 5px 65px 5px 65px;
+        font-size: 25px;
+        margin: 20px 0px 10px 0px;
+        border: none;
+        }
+    
+        button.newArt__button {
+            border-radius: 10px;
+            background-color: #0186AB;
+            padding: 5px 65px 5px 65px;
+            font-size: 25px;
+            border: none;
+        }
+
+        .gallary-btn-into__text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1em;
+        }
+
+    .section__gallaries {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    button.buttonEdit {
+        background: none;
+        border: none;
+    }
+    
+    button.buttonDelete {
+        background: none;
+        border: none; 
+        padding: 0.5em 0em 0.5em 2.5em;
+    }
+    
+    img.gallary__image {
+        padding: 1em 8em;
+    }
+    
+    h1.gallary__name {
+        text-align: center;
+        padding-top: 0.5em;
+    }
+    
+    img.gallary__instructions {
+        width: 400px;
+    }
+    
+    img.gallary__logo {
+        width: 250px;
+    }
+    
+    img.default__img {
+        padding-top: 1.5em;
+        width: 70%;
+    }
+
+    .gallary__buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .post {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5em;
+    }
+    img.posttext {
+        width: 300px;
+    }
+
+    img.postlogo {
+        width: 300px;
+    }
+
+    .post__desription {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edit {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5em;
+    }
+    img.edittext {
+        width: 300px;
+    }
+
+    img.editlogo {
+        width: 300px;
+    }
+
+    .edit__desription {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -28,16 +28,20 @@ export const GallaryList = () => {
 
     return(
         <>
-       <div className="section__gallaries">
-       <img className="gallary__logo" src={earth} alt="" /> 
-       <button type="button"
+        <div className="gallary-btn-into__text">
+         <h1>MY ART</h1>   
+        <button type="button"
                     className="newArt__button"
                     onClick={() => { history.push("/gallary/create") }}>
                     New Art
                 </button>
-            <img className="gallary__instructions" src={instructions} alt="" />
-       
+                </div>
+       <div className="section__gallaries">
+       <img className="gallary__logo" src={earth} alt="" /> 
         
+            <img className="gallary__instructions" src={instructions} alt="" />
+            </div>
+            <div className="gallary__images">
             {gallaries.map(gallary => <GallaryCard key={gallary.id} gallary={gallary} handleDeleteGallary={handleDeleteGallary} /> )}
         </div>
         </>
