@@ -14,6 +14,12 @@ padding: 1em;
     }
 }
 
+.step__description__section1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
 .carousel{
     display: flex;
     flex-direction: column;
@@ -28,7 +34,7 @@ a.carousel-control-next{
     position: absolute;
     width: 150px;
     height: 150px;
-    margin-top: 250px;
+    margin-top: 280px;
     opacity: 1;
   
     span.carousel-control-next-icon{
@@ -43,7 +49,7 @@ a.carousel-control-prev{
     position: absolute;
     width: 150px;
     height: 150px;
-    margin-top: 250px;
+    margin-top: 280px;
     opacity: 1;
     
     span.carousel-control-prev-icon{
@@ -72,6 +78,12 @@ img.text__bg{
 
 img.c23earth {
     width: 50%;
+}
+
+.steps__one {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1em;
 }
 
 .text__container2 {
@@ -122,5 +134,193 @@ img.cendearth {
     h2{
         position: absolute;
         padding: 6.5em 0.5em 2em 0em;
+    }
+}
+
+@media only screen and (min-width:576px) { .logo__friends{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    
+        .c1earth {
+            width: 30%;
+        }
+        .c1star {
+            width: 30%;
+        }
+        .c1tree {
+            width: 30%;
+        }
+    }
+    
+    .carousel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        .carousel-indicators { 
+            visibility: hidden; }
+    }
+    
+    a.carousel-control-next{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        margin-top: 250px;
+        opacity: 1;
+      
+        span.carousel-control-next-icon{
+            background-image: url("../images/nextarrow.png");   
+            width: 150px;
+            height: 150px;
+        
+        }
+    }
+    
+    a.carousel-control-prev{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        margin-top: 250px;
+        opacity: 1;
+        
+        span.carousel-control-prev-icon{
+            background-image: url("../images/previousarrow.png");
+            width: 150px;
+            height: 150px;
+        }
+    }
+    
+    span.blue {
+        color: $blue;
+    }
+    
+    span.green {
+        color: $green;
+    }
+    
+    .description__arrows {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10em;
+    }
+    
+    img.text__bg{
+        width: 200px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    img.c23earth {
+        width: 150px;
+    }
+    
+    .text__container2 {
+        margin-top: 0em;
+        position: relative;
+        h2{
+            position: absolute;
+        }
+    }
+    
+    h1.item__name {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        padding-top: 0.5em;
+    }
+    
+    img.finishfriends {
+        padding: 0em 1em 1em 1em;
+    }
+    
+    img.cendearth {
+        width: 150px;
+    }
+    
+    .gallary__end {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .gallary__container1 {
+        position: relative;
+        padding: 10em 2em 0em 2em;
+        h2{
+            position: absolute;
+            padding: 6.5em 2em 0em 1.5em;
+        }
+    }
+    
+    .gallary__container2 {
+        position: relative;
+        text-align: center;
+        padding-top: 2em;
+        h2{
+            position: absolute;
+            padding: 6.5em 0.5em 2em 0em;
+        }
+    }
+
+    .step__description__section1 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        h2 {
+            max-width: 350px;
+        }
+    }
+
+    .steps__one {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    .stepItems {
+        display: flex;
+        margin-top: 5em;
+    }
+
+    .step__description__section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .step__image-section1 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .step__image-section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        h2 {
+            max-width: 350px;
+        }
+    }
+
+    .steps__two {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    img.step__img1 {
+        width: 300px;
+    }
+    img.step__img2 {
+        width: 300px;
+    }
+
+    .stepstwo__flex {
+        display: flex;
+        flex-direction: row-reverse;
     }
 }

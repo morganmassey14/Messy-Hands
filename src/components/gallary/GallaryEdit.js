@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { update, getGallaryById } from "../../modules/GallaryManager"
 import { useParams, useHistory } from "react-router-dom"
+import editlogo from "../../images/editlogo.png";
+import edittext from "../../images/edittext.png";
 
 export const GallaryEditForm = () => {
     let user = parseInt(sessionStorage.getItem("mh_user"))
@@ -73,6 +75,11 @@ export const GallaryEditForm = () => {
 
 return (
 <>
+<div className="edit">
+<div className="edit__desription">
+        <img className="editlogo" src={editlogo} alt="" />
+        <img className="edittext" src={edittext} alt="" /> 
+        </div>
 <div className="gallary-edit__form">
 <img className="mainImage" src={image} />
 <fieldset className="file-input">
@@ -99,6 +106,6 @@ return (
           </div>
           </div>
         
-    
+          </div>
 </>
 )}

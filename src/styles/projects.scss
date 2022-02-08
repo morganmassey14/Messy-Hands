@@ -57,3 +57,73 @@ h2.step__description1 {
     text-align: left;
     padding: 0em 1em;
 }
+
+@media only screen and (min-width:576px) { 
+.project__intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+.project__earth {
+    width: 150px;
+}
+.project__stars {
+    width: 100px;
+    height: 100px;
+}
+
+.text__container {
+    position: relative;
+    text-align: center;
+    h2{
+        position: absolute;
+        padding: 1em;
+    }
+}
+
+.project__image {
+   
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 2em;
+        justify-content: space-evenly;
+    }
+
+.project__image img {
+    margin-bottom: 2em;
+    width: 250px;
+    border: 5px solid $blue;
+    padding-bottom: 0px;
+}
+section.step {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+img.c23star {
+    margin-top: 5em;
+    padding: 0em 1em 1em 3.5em;
+}
+
+img.step__image1 {
+    padding: 10em 2em 2em 2em;
+}
+
+img.step__image2 {
+    padding: 2em;
+}
+
+h2.step__description2 {
+    text-align: left;
+    padding: 0em 1em;
+}
+
+h2.step__description1 {
+    text-align: left;
+    padding: 0em 1em;
+}
+}
