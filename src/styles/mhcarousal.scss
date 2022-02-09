@@ -86,6 +86,36 @@ img.c23earth {
     margin-top: 1em;
 }
 
+.steps__two {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.step__description__section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step__image-section2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.step__image-section1 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.stepstwo__flex {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 14em 1em 1em 1em;
+}
+
 .text__container2 {
     margin-top: 8em;
     position: relative;
@@ -135,6 +165,14 @@ img.cendearth {
         position: absolute;
         padding: 6.5em 0.5em 2em 0em;
     }
+}
+
+h2.step__description1 {
+    text-align: center;
+}
+
+h2.step__description2 {
+    text-align: center;
 }
 
 @media only screen and (min-width:576px) { .logo__friends{
@@ -221,6 +259,7 @@ img.cendearth {
         position: relative;
         h2{
             position: absolute;
+            padding: 0.5em 3em 1em 1em;
         }
     }
     
@@ -296,6 +335,7 @@ img.cendearth {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: flex-end;
     }
 
     .step__image-section2 {
@@ -322,5 +362,30 @@ img.cendearth {
     .stepstwo__flex {
         display: flex;
         flex-direction: row-reverse;
+        margin-top: 12em;
     }
+
+    h2.step__description1 {
+        max-width: 350px;
+    }
+
+    img.finishfriends {
+        padding: 0em 9em;
+    }
+
+    a.carousel-control-next {
+        display: none;
+    }
+
+    .lastCarousal.active.carousel-item{
+        a.carousel-control-next {
+            display: none;
+        }
+    }
+    // .lastCarousal{
+    //     a.carousel-control-next {
+    //         display: none;
+    //     }
+    // }
+
 }

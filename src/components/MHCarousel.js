@@ -64,7 +64,7 @@ return (
   <img className="finishfriends" src={finishfriends} alt="" />
   </Carousel.Item>
 
-  <Carousel.Item>
+  <Carousel.Item className="lastCarousal">
   <div className="gallary__end">
   <h3 className="finish__text">Picture Time!!!</h3>
   <img className="cendearth" src={cendearth} alt="" />
