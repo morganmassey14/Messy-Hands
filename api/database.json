@@ -4,6 +4,16 @@
       "id": 1,
       "name": "Archer",
       "email": "archermingo@me.com"
+    },
+    {
+      "email": "brenda@me.com",
+      "name": "Brenda ",
+      "id": 2
+    },
+    {
+      "email": "jillianduke@me.com",
+      "name": "Morgan",
+      "id": 3
     }
   ],
   "gallary": [

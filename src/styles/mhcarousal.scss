@@ -45,6 +45,13 @@ a.carousel-control-next{
     }
 }
 
+.gallary__instructions__carousal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+
 a.carousel-control-prev{
     position: absolute;
     width: 150px;
@@ -57,6 +64,12 @@ a.carousel-control-prev{
         width: 150px;
         height: 150px;
     }
+}
+
+.gallary__end__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 span.blue {
@@ -84,6 +97,36 @@ img.c23earth {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 1em;
+}
+
+.steps__two {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.step__description__section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step__image-section2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.step__image-section1 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.stepstwo__flex {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 14em 1em 1em 1em;
 }
 
 .text__container2 {
@@ -120,21 +163,30 @@ img.cendearth {
 
 .gallary__container1 {
     position: relative;
-    padding: 10em 2em 0em 2em;
+    width: 350px;
+    margin-right: 10px;
     h2{
         position: absolute;
-        padding: 6.5em 2em 0em 1.5em;
+        padding: 8.25em 2em 0em 2em;
     }
 }
 
 .gallary__container2 {
     position: relative;
-    text-align: center;
-    padding-top: 2em;
+    width: 350px;
+    margin-left: 10px;
     h2{
         position: absolute;
-        padding: 6.5em 0.5em 2em 0em;
+        padding: 8.25em 2em 0em 2em;
     }
+}
+
+h2.step__description1 {
+    text-align: center;
+}
+
+h2.step__description2 {
+    text-align: center;
 }
 
 @media only screen and (min-width:576px) { .logo__friends{
@@ -221,6 +273,7 @@ img.cendearth {
         position: relative;
         h2{
             position: absolute;
+            padding: 0.5em 3em 1em 1em;
         }
     }
     
@@ -248,7 +301,8 @@ img.cendearth {
     
     .gallary__container1 {
         position: relative;
-        padding: 10em 2em 0em 2em;
+        width: 350px;
+        margin-right: 10px;
         h2{
             position: absolute;
             padding: 6.5em 2em 0em 1.5em;
@@ -257,11 +311,11 @@ img.cendearth {
     
     .gallary__container2 {
         position: relative;
-        text-align: center;
-        padding-top: 2em;
+        width: 350px;
+        margin-right: 10px;
         h2{
             position: absolute;
-            padding: 6.5em 0.5em 2em 0em;
+            padding: 6.5em 1em 2em 1em;
         }
     }
 
@@ -296,6 +350,7 @@ img.cendearth {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: flex-end;
     }
 
     .step__image-section2 {
@@ -314,13 +369,30 @@ img.cendearth {
 
     img.step__img1 {
         width: 300px;
+        height: 300px;
     }
     img.step__img2 {
         width: 300px;
+        height: 300px;
     }
 
     .stepstwo__flex {
         display: flex;
         flex-direction: row-reverse;
+    }
+
+    h2.step__description1 {
+        max-width: 350px;
+    }
+
+    img.finishfriends {
+        padding: 0em 9em;
+    }
+
+    .gallary__instructions__carousal {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-top: 10em;
     }
 }
