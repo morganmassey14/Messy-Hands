@@ -20,6 +20,7 @@ padding: 1em;
     align-items: center;
 }
 
+
 .carousel{
     display: flex;
     flex-direction: column;
@@ -338,6 +339,7 @@ h2.step__description2 {
     .stepItems {
         display: flex;
         margin-top: 5em;
+        align-items: center;
     }
 
     .step__description__section2 {
@@ -379,6 +381,7 @@ h2.step__description2 {
     .stepstwo__flex {
         display: flex;
         flex-direction: row-reverse;
+        align-items: flex-start;
     }
 
     h2.step__description1 {
