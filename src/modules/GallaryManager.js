@@ -27,7 +27,7 @@ export const addGallaryEntry = (newGallaryEntry) => {
 }
 
 export const getGallaryByUser = (userId) => {
-    return fetch(`${remoteURL}/gallary?_userId=${userId}`)
+    return fetch(`${remoteURL}/gallary/?userId=${userId}`)
     .then(res => res.json())
 }
 

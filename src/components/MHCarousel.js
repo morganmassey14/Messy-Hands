@@ -66,19 +66,23 @@ return (
 
   <Carousel.Item className="lastCarousal">
   <div className="gallary__end">
+  <div className="gallary__end__description"> 
   <h3 className="finish__text">Picture Time!!!</h3>
   <img className="cendearth" src={cendearth} alt="" />
+  </div> 
+  <div className="gallary__instructions__carousal">
   <div className="gallary__container1">
   <h2>Click on the camera to take a picture</h2>
   <img className="centered" src={cendstar} alt="" />
-  </div>
   <Link to="/gallary/create" className="camera__button"><img className="camerabutton" src={camera} alt="" /></Link>
+  </div>
   <div className="gallary__container2">
   <h2>Click on the art to go to your gallary</h2>
   <img className="centered" src={cendtree} alt="" />
-  </div>
   <Link to="/gallary" className="mhcgallary__button"><img className="mhcgallarybutton" src={gallary} alt="" /></Link>
-  </div>  
+  </div>
+  </div> 
+  </div> 
   </Carousel.Item>
 </Carousel>
 </>
