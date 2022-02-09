@@ -15,8 +15,9 @@ export const NavBar = ({ clearUser }) => {
         const retVal = window.confirm("Are you sure you want to Logout?")
 
         if (retVal == true) {
-          history.push('/login');
           clearUser();
+          history.push('/login');
+        
         } else {
           return false
         }
@@ -31,7 +32,8 @@ export const NavBar = ({ clearUser }) => {
         <div className="navbar__links">
         <NavLink to="/" className="home__button"><img className="homebutton" src={home} alt="" /></NavLink>
         <NavLink to="/gallary" className="gallary__button"><img className="gallarybutton" src={gallary} alt="" /></NavLink>
-        <NavLink to="/login" className="logout__button" onClick={handleLogout}><img className="logoutbutton" src={logout} alt="" /></NavLink>
+        <div className="home__button" onClick={handleLogout}><img className="logoutbutton" src={logout} alt="" />
+        </div>
         </div>
         </div>
         </div>
