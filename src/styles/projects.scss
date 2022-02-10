@@ -9,8 +9,9 @@
     padding-bottom: 1em;
 }
 .project__stars {
-    width: 70%;
-    padding-top: 1em;
+    height: auto;
+    width: auto;
+    margin-top: 1em;
 }
 
 .text__container {
@@ -69,17 +70,14 @@ h2.step__description1 {
 .project__earth {
     width: 150px;
 }
-.project__stars {
-    width: 100px;
-    height: 100px;
-}
 
 .text__container {
     position: relative;
     text-align: center;
+    padding: 1em;
     h2{
         position: absolute;
-        padding: 1em;
+        padding-top: 30px;
     }
 }
 
