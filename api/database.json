@@ -346,8 +346,8 @@
     },
     {
       "id": 10,
-      "title": "paint brushes",
-      "image": "paintbrushes.png"
+      "title": "brushes",
+      "image": "paintbrush.png"
     },
     {
       "id": 11,
@@ -565,6 +565,29 @@
       "id": 36,
       "itemId": 16,
       "stepId": 22
+    },
+    
+    {
+      "id": 37,
+      "itemId": 17,
+      "stepId": 18
+    },
+    {
+      "id": 38,
+      "itemId": 6,
+      "stepId": 10
+    },
+    {
+      "id": 39,
+      "itemId": 10,
+      "stepId": 2
+    },
+    {
+      "id": 40,
+      "itemId": 11,
+      "stepId": 2
     }
+
+
   ]
 }
