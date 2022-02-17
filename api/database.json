@@ -18,10 +18,22 @@
   ],
   "gallary": [
     {
+      "id": 5,
       "userId": 1,
-      "title": "Nature Collage",
-      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1644275284/maji265r7b8inmqumkdu.jpg",
-      "id": 5
+      "title": "Archer's Nature Collage",
+      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1644275284/maji265r7b8inmqumkdu.jpg"
+    },
+    {
+      "userId": 1,
+      "title": "Archer's Suncatcher",
+      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1644586505/woa9wwf8xewv2qyh7sgp.jpg",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "title": "Archer's Fairy",
+      "image": "https://res.cloudinary.com/dexjhtget/image/upload/v1644586561/o4g4ubmfjmdn1j78curo.jpg"
     }
   ],
   "projects": [
@@ -49,11 +61,6 @@
       "id": 5,
       "title": "Nature Suncatcher",
       "image": "naturesuncatcher.png"
-    },
-    {
-      "id": 6,
-      "title": "Nature Crown",
-      "image": "stickfairies.jpg"
     }
   ],
   "steps": [
@@ -256,46 +263,6 @@
       "image2": "naturesuncatcher4.jpeg",
       "stepOrder": 4,
       "projectId": 5
-    },
-    {
-      "id": 21,
-      "title": "Step One",
-      "description1": "Nature Scavenger Hunt",
-      "description2": "Go and collect these items outside",
-      "image1": "",
-      "image2": "",
-      "stepOrder": 1,
-      "projectId": 6
-    },
-    {
-      "id": 22,
-      "title": "Step Two",
-      "description1": "Indoor Supplies",
-      "description2": "Get a grown-up to help collect these items inside",
-      "image1": "",
-      "image2": "",
-      "stepOrder": 2,
-      "projectId": 6
-    },
-    {
-      "id": 23,
-      "title": "Step Three",
-      "description1": "Have a grown up measure your head and cut your paper bag to fit",
-      "description2": "Use your markers and/or paint to decorate the paper bag",
-      "image1": "stickfairies.jpg",
-      "image2": "stickfairies.jpg",
-      "stepOrder": 3,
-      "projectId": 6
-    },
-    {
-      "id": 24,
-      "title": "Step Four",
-      "description1": "Use your glue to attach your nature pieces onto the paper bag",
-      "description2": "Once dry, glue the backs together to form your crown!",
-      "image1": "stickfairies.jpg",
-      "image2": "stickfairies.jpg",
-      "stepOrder": 4,
-      "projectId": 6
     }
   ],
   "items": [
@@ -392,11 +359,6 @@
       "stepId": 1
     },
     {
-      "id": 2,
-      "itemId": 1,
-      "stepId": 21
-    },
-    {
       "id": 3,
       "itemId": 2,
       "stepId": 6
@@ -427,11 +389,6 @@
       "stepId": 17
     },
     {
-      "id": 9,
-      "itemId": 4,
-      "stepId": 21
-    },
-    {
       "id": 10,
       "itemId": 5,
       "stepId": 5
@@ -447,11 +404,6 @@
       "stepId": 17
     },
     {
-      "id": 13,
-      "itemId": 5,
-      "stepId": 21
-    },
-    {
       "id": 14,
       "itemId": 6,
       "stepId": 2
@@ -460,11 +412,6 @@
       "id": 15,
       "itemId": 6,
       "stepId": 18
-    },
-    {
-      "id": 16,
-      "itemId": 6,
-      "stepId": 22
     },
     {
       "id": 17,
@@ -487,19 +434,9 @@
       "stepId": 17
     },
     {
-      "id": 21,
-      "itemId": 7,
-      "stepId": 21
-    },
-    {
       "id": 22,
       "itemId": 8,
       "stepId": 2
-    },
-    {
-      "id": 23,
-      "itemId": 8,
-      "stepId": 22
     },
     {
       "id": 24,
@@ -517,11 +454,6 @@
       "stepId": 14
     },
     {
-      "id": 27,
-      "itemId": 10,
-      "stepId": 22
-    },
-    {
       "id": 28,
       "itemId": 11,
       "stepId": 10
@@ -532,19 +464,9 @@
       "stepId": 14
     },
     {
-      "id": 30,
-      "itemId": 11,
-      "stepId": 22
-    },
-    {
       "id": 31,
       "itemId": 12,
       "stepId": 14
-    },
-    {
-      "id": 32,
-      "itemId": 13,
-      "stepId": 22
     },
     {
       "id": 33,
@@ -561,12 +483,6 @@
       "itemId": 16,
       "stepId": 18
     },
-    {
-      "id": 36,
-      "itemId": 16,
-      "stepId": 22
-    },
-    
     {
       "id": 37,
       "itemId": 17,
@@ -587,7 +503,5 @@
       "itemId": 11,
       "stepId": 2
     }
-
-
   ]
 }
